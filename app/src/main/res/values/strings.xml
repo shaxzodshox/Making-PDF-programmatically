@@ -2,7 +2,7 @@
     <string name="app_name">Pdf receipt</string>
 
     <string-array name="foods">
-        <item>Select</item>
+        <item>Tanlang</item>
         <item>Burger</item>
         <item>Lavash</item>
         <item>Donar</item>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="4dp"
+    >
+
+    <FrameLayout
+        android:layout_weight="2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_theme">
+
+        <androidx.appcompat.widget.AppCompatSpinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:entries="@array/foods"
+            android:layout_marginHorizontal="8dp"
+            />
+    </FrameLayout>
+
+
+    <EditText
+        android:id="@+id/et_qty"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:hint="0"
+        android:layout_marginHorizontal="8dp"
+        android:textAlignment="center"
+        android:background="@drawable/bg_theme"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:paddingHorizontal="16dp"
+        android:layout_weight="1"/>
+
+    <ImageView
+        android:id="@+id/iv_close"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:padding="12dp"
+        android:layout_marginEnd="8dp"
+        android:src="@drawable/ic_baseline_close_24"/>
+</LinearLayout>
